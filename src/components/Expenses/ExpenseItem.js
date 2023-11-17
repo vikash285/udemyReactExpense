@@ -11,10 +11,8 @@ const ExpenseItem = (props) => {
       <ExpenseDetails
         title={props.title}
         location={props.location}
-        amount={amount}
+        amount={props.amount}
       />
-      <button onClick={clickHandler}>Change Title</button>
-      <button onClick={clickHandler1}>Up Amount</button>
     </Card>
   );
 };
